@@ -76,3 +76,11 @@ console.log(schedule("09:00", "10:00"));
 console.log(schedule("11:00", "12:00"));
 console.log(schedule("09:00", "18:00"));
 console.log(schedule("09:30", "10:30"));
+
+/*
+OUTPUT
+[ [ '09:00', '10:00' ] ]
+[ [ '09:00', '10:00' ], [ '11:00', '12:00' ] ]
+09:00 to 18:00 has conflict
+09:30 to 10:30 has conflict
+*/
